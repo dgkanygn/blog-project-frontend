@@ -1,0 +1,26 @@
+.pageNotFoundContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+.pageNotFound {
+  text-align: center;
+}
+
+.pageNotFound p {
+  margin-top: 50px;
+}
+
+.pageNotFound b {
+  cursor: pointer;
+}
+
+.pageNotFound b:hover {
+  cursor: pointer;
+  color: rgb(49, 49, 49);
+}
+
+.notFoundL {
+  text-decoration: none;
+  color: black;
+}

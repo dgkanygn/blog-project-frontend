@@ -1,0 +1,56 @@
+.createPost {
+  width: 925px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px 30px;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.createPostTitle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.createPostTitle input {
+  height: 25px;
+  outline: none;
+  font-size: 16px;
+}
+
+.createPostArticle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.createPost button {
+  padding: 0.75rem 1rem;
+  border: 1px solid;
+  background-color: rgb(0, 114, 208);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.createNewButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.textBox {
+  height: 500px;
+}
+
+@media (max-width: 1060px) {
+  .createPost {
+    width: auto;
+    padding: 10px 30px;
+    margin: 0 10px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,59 @@
+.profileInfo {
+  width: 925px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px 30px;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+}
+
+.profileInfoRight {
+  margin-left: 120px;
+}
+
+.profileInfoRightUsername {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.artandfav {
+  display: flex;
+}
+.artandfav p {
+  background-color: rgb(226, 226, 226);
+  margin-right: 1rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+  .profileInfo {
+    width: auto;
+    padding: 25px 30px;
+    margin: 10px 10px;
+    margin-top: 1rem;
+  }
+
+  .profileImage {
+    width: 165px;
+    height: 165px;
+  }
+
+  .profileInfoRight {
+    margin-left: 50px;
+  }
+
+  .artandfav p {
+    font-size: 14px;
+  }
+}

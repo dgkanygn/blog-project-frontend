@@ -1,0 +1,8 @@
+.PostPage {
+  margin-top: 9rem;
+}
+
+.commentParent {
+  display: flex;
+  flex-direction: column-reverse;
+}

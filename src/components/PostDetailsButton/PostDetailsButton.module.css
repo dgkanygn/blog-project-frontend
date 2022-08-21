@@ -1,0 +1,39 @@
+.postDetailsButton {
+  position: absolute;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  right: -15px;
+  top: 50px;
+  z-index: 100;
+}
+
+.postDetailsButton i {
+  color: gray;
+  margin-right: 2px;
+}
+
+.postDetailsButton div {
+  background-color: white;
+  padding: 7px;
+  padding-right: 12px;
+}
+
+.postDetailsButton div:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: black;
+}
+
+/**** MODAL ***/
+
+.postDetailsButtonModal {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+}

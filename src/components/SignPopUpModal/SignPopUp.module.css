@@ -1,0 +1,48 @@
+.signPopUpModal {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signPopUpBox {
+  background-color: white;
+  position: absolute;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 5px;
+  z-index: 1000;
+  text-align: center;
+  padding: 35px 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.signPopUpBox button {
+  padding: 0.75rem 1rem;
+  border: 1px solid;
+  background-color: rgb(0, 114, 208);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signPopUpBox p {
+  cursor: pointer;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.signPopUpBox p:hover {
+  color: rgb(97, 97, 97);
+}
+
+@media (max-width: 1000px) {
+  .signPopUpBox {
+    width: auto;
+    padding: 10px 30px;
+  }
+}

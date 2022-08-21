@@ -1,0 +1,49 @@
+.notificationDropDown {
+  position: absolute;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  right: 70px;
+  top: 75px;
+  z-index: 100;
+  overflow-y: scroll;
+  height: 200px;
+  background-color: white;
+  height: 200px;
+  width: 286px;
+}
+
+.notificationDropDown i {
+  color: gray;
+  margin-right: 2px;
+}
+
+.notificationDropDown div {
+  background-color: white;
+  padding: 7px;
+  padding-right: 12px;
+}
+
+.notificationDropDown div:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+.notificationPiece {
+  width: 250px;
+  text-align: left;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: black;
+}
+
+/**** MODAL ***/
+
+.notificationDropDownModal {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+}

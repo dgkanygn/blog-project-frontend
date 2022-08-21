@@ -1,0 +1,20 @@
+.newPostButton button {
+  padding: 0.9rem 1rem;
+  border: 1px solid;
+  background-color: rgb(208, 0, 0);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .newPostButton {
+    width: auto;
+    margin: 0 10px;
+    margin-top: 1rem;
+  }
+
+  .newPostButton button span {
+    display: none;
+  }
+}
