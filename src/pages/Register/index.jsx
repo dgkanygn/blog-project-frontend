@@ -39,7 +39,7 @@ const Register = () => {
         formData.append("email", values.email);
         formData.append("password", values.password);
         formData.append("bio", values.bio);
-        formData.append("receipt", receipt);
+        formData.append("profileImage", receipt);
 
 
         setReceiptCheck(!receipt ? true : false);
